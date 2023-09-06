@@ -3,15 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Modelu 2 - Tema 1 - Ejercicio 1 - Calendar</title>
+    <title>Modulo 2 - Tema 1 - Ejercicio 1 - Calendar</title>
+    <link rel="stylesheet" href="calendar.css">
   </head>
   <body>
+    <h3>Modulo 2 - Tema 1 - Ejercicio 1</h3>
+    <h4>Calendario</h4>
+    <h5>Ejercicio</h5>
+    <p>Crea el archivo calendar.html, y dentro añade el código necesario para generar una tabla, con el contenido del mes en curso. Como referencia, puedes ver el calendario de Windows. Sería algo parecido a la siguiente imagen, pero con el mes en curso, pero sin aplicar estilos CSS:</p>
     <table>
-      <caption>
-        Septiembre de 2023
-      </caption>
       <tr>
-        <td>L</td>
+        <td colspan="7">Septiembre de 2023</td>
+      </tr>
+      <tr>
+        <td>L</t>
         <td>M</td>
         <td>X</td>
         <td>J</td>
@@ -20,10 +25,10 @@
         <td>D</td>
       </tr>
       <tr>
-        <td>28</td>
-        <td>29</td>
-        <td>30</td>
-        <td>31</td>
+        <td class="tdOff">28</td>
+        <td class="tdOff">29</td>
+        <td class="tdOff">30</td>
+        <td class="tdOff">31</td>
         <td>1</td>
         <td>2</td>
         <td>3</td>
@@ -31,7 +36,7 @@
       <tr>
         <td>4</td>
         <td>5</td>
-        <td>6</td>
+        <td class="tdOn">6</td>
         <td>7</td>
         <td>8</td>
         <td>9</td>
@@ -62,16 +67,16 @@
         <td>28</td>
         <td>29</td>
         <td>30</td>
-        <td>1</td>
+        <td class="tdOff">1</td>
       </tr>
       <tr>
-        <td>2</td>
-        <td>3</td>
-        <td>4</td>
-        <td>5</td>
-        <td>6</td>
-        <td>7</td>
-        <td>8</td>
+        <td class="tdOff">2</td>
+        <td class="tdOff">3</td>
+        <td class="tdOff">4</td>
+        <td class="tdOff">5</td>
+        <td class="tdOff">6</td>
+        <td class="tdOff">7</td>
+        <td class="tdOff">8</td>
       </tr>
     </table>
   </body>
