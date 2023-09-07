@@ -1,0 +1,109 @@
+html {
+    background-color: white;
+    color: #474747;
+  }
+  
+  body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f5f4fc;
+    max-width: 90%;
+    margin: auto;
+    padding: 2rem;
+  }
+  
+  h3 {
+    font-size: 1.5em;
+    color: #cbf280;
+    background-color: #4831d4;
+    padding: 0.5em;
+    margin: 0;
+  }
+  
+  h4 {
+    font-size: 1.2em;
+    background-color: #cbf280;
+    padding: 0.5em;
+    margin: 0;
+  }
+  
+  h5 {
+    font-size: 1em;
+    margin: 0.5em 0;
+    padding: 0 0.5em;
+  }
+  
+  p {
+    font-size: 0.8em;
+    margin: 0.5em 0;
+    padding: 0 0.5em 2em 0.5em;
+    border-bottom: 0.1em dashed #474747;
+  }
+
+input,
+textarea,
+select,
+button {
+  width: 180px;
+  padding: 15px;
+  margin: 0;
+
+  border-radius: 15px;
+
+  box-sizing: border-box;
+  border: none;
+
+  background-color: #f3f5f7;
+}
+  
+.tabla__contenedor {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+table {
+    color: black;
+    background: linear-gradient(#f6f7f9, #ffffff);
+  
+    border-collapse:collapse;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+td {
+    padding: 1em;
+    text-align: center;
+}
+
+.tdOff {
+    color: #cecfd1;
+}
+
+.tdOn {
+    color: white;
+    background-color: #fd4054;
+    border-radius: 15px;
+}
+
+.bgBlanco {
+  background-color: white;
+}
+
+.trRadius {
+  border-radius: 25px;
+}
+
+.resaltado {
+  background-color: #feeeef;
+  color: #fd4054;
+}
+
+.activo {
+  background-color: #fd4054;
+  color: white;
+}
+
+.botonAzul {
+  background-color: #4831d4;
+  color: white;
+}

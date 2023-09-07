@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modulo 2 - Tema 1 - Ejercicio 1 - Calendar</title>
+    <link rel="stylesheet" href="calendar.css">
+  </head>
+  <body>
+    <h3>Modulo 2 - Tema 1 - Ejercicio 1</h3>
+    <h4>Calendario</h4>
+    <h5>Ejercicio</h5>
+    <p>Crea el archivo calendar.html, y dentro añade el código necesario para generar una tabla, con el contenido del mes en curso. Como referencia, puedes ver el calendario de Windows. Sería algo parecido a la siguiente imagen, pero con el mes en curso, pero sin aplicar estilos CSS:</p>
+    <div class="tabla__contenedor">
+    <table class="tabla">
+      <tr class="bgBlanco trRadius">
+        <td colspan="7">
+          <select id="seleccion_mes" name="seleccion_mes" required>
+            <option value="Enero">Enero</option>
+            <option value="Febrero">Febrero</option>
+            <option value="Marzo">Marzo</option>
+          </select>
+          <select id="seleccion_ano" name="seleccion_ano" required>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+          </select>
+        </td>
+      </tr>
+      <tr class="bgBlanco">
+        <td class="tdOff">L</t>
+        <td class="tdOff">M</td>
+        <td class="tdOff">X</td>
+        <td class="tdOff">J</td>
+        <td class="tdOff">V</td>
+        <td class="tdOff">S</td>
+        <td class="tdOff">D</td>
+      </tr>
+      <tr>
+        <td class="tdOff">28</td>
+        <td class="tdOff">29</td>
+        <td class="tdOff">30</td>
+        <td class="tdOff">31</td>
+        <td class="">1</td>
+        <td class="">2</td>
+        <td class="">3</td>
+      </tr>
+      <tr>
+        <td class="">4</td>
+        <td class="">5</td>
+        <td class="">6</td>
+        <td class="">7</td>
+        <td class="">8</td>
+        <td class="">9</td>
+        <td class="">10</td>
+      </tr>
+      <tr>
+        <td class="">11</td>
+        <td class="">12</td>
+        <td class="">13</td>
+        <td class="">14</td>
+        <td class="">15</td>
+        <td class="resaltado">16</td>
+        <td class="resaltado">17</td>
+      </tr>
+      <tr>
+        <td class="resaltado">18</td>
+        <td class="resaltado">19</td>
+        <td class="resaltado">20</td>
+        <td class="activo">21</td>
+        <td class="">22</td>
+        <td class="">23</td>
+        <td class="">24</td>
+      </tr>
+      <tr>
+        <td class="">25</td>
+        <td class="">26</td>
+        <td class="">27</td>
+        <td class="">28</td>
+        <td class="">29</td>
+        <td class="">30</td>
+        <td class="">31</td>
+      </tr>
+      <tr>
+        <td colspan="7">
+          <button>Back</button>
+          <button class="botonAzul">Apply</button>
+        </td>
+      </tr>      
+    </table>
+  </div>
+  </body>
+</html>

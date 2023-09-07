@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modulo 2 - Tema 1 - Ejercicio 3 - Orders</title>
+    <link rel="stylesheet" href="orders.css" />
+  </head>
+  <body>
+    <h3>Modulo 2 - Tema 1 - Ejercicio 3</h3>
+    <h4>Orders</h4>
+    <div class="ejercicio__div">
+      <h5>Ejercicio</h5>
+      <p>
+        Crea el archivo orders.html. Debe contener un título principal, uno
+        secundario y un formulario. El formulario tendrá los campos necesarios
+        para enviar:
+      </p>
+      <ul>
+        <li>nombre de usuario</li>
+        <li>email</li>
+        <li>teléfono</li>
+        <li>dirección</li>
+        <li>elegir entre 5 primeros platos</li>
+        <li>elegir entre 3 segundos platos</li>
+        <li>un botón submit, con el texto “Make order”</li>
+      </ul>
+    </div>
+
+    <h1>Orden de Comida</h1>
+    <h2>Por favor, complete el siguiente formulario:</h2>
+
+    <form action="procesar_orden.php" method="post">
+      <label for="username">Nombre de Usuario:</label>
+      <input type="text" id="username" name="username" required /><br /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <label for="phone">Teléfono:</label>
+      <input type="tel" id="phone" name="phone" required /><br /><br />
+
+      <label for="address">Dirección de Envío:</label>
+      <textarea id="address" name="address" rows="4" required></textarea
+      ><br /><br />
+
+      <label for="first_course">Primer Plato:</label>
+      <select id="first_course" name="first_course" required>
+        <option value="sopa">Sopa</option>
+        <option value="ensalada">Ensalada</option>
+        <option value="pasta">Pasta</option>
+        <option value="arroz">Arroz</option>
+        <option value="pizza">Pizza</option>
+      </select>
+
+      <br /><br />
+
+      <label for="second_course">Segundo Plato:</label>
+      <select id="second_course" name="second_course" required>
+        <option value="pollo">Pollo</option>
+        <option value="pescado">Pescado</option>
+        <option value="carne">Carne</option></select
+      ><br /><br />
+
+      <input type="submit" value="Make order" />
+    </form>
+  </body>
+</html>

@@ -52,11 +52,11 @@ td {
 }
 
 .tdOff {
-    color: gray;
+    color: #474747;
 }
 
 .tdOn {
-    background-color: cornflowerblue;
+    background-color: #4831d4;
     border: rgba(33, 33, 44, 255) 0.5em double;
     padding: 0.5em;
 }

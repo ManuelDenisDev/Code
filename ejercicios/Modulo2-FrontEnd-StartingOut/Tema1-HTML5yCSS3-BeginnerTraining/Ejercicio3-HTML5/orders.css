@@ -1,0 +1,62 @@
+html {
+  background-color: white;
+  color: #474747;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #f5f4fc;
+  max-width: 90%;
+  margin: auto;
+  padding: 2rem;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #cbf280;
+  background-color: #4831d4;
+  padding: 0.5em;
+  margin: 0;
+}
+
+
+h4 {
+  font-size: 1.2em;
+  background-color: #cbf280;
+  padding: 0.5em;
+  margin: 0;
+}
+
+.ejercicio__div {
+  font-size: 0.8em;
+  padding: 0.5rem 0.5em 2em 0.5em;
+  border-bottom: 0.1em dashed #474747;
+
+}
+
+h5 {
+  font-size: 1em;
+  margin: 0.5em 0;
+}
+
+/* Ejercicio */
+
+table {
+    margin-top: 1em;
+
+    color: white;
+    background-color: #474747;
+
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+td {
+    padding: 0.5em;
+    border-top: 0.1em solid #999999;
+    min-width: 3em;
+}
+
+thead > tr{
+    text-transform: lowercase;
+}
